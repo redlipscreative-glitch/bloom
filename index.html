@@ -11,18 +11,18 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --cream:   #FDF7EE;
-      --cream2:  #F5EDE0;
-      --forest:  #1B3A2D;
-      --forest2: #2D5C45;
-      --coral:   #E05C3A;
-      --gold:    #C9973F;
-      --blush:   #F0C4B0;
-      --sage:    #8FAF90;
-      --text:    #1A1A1A;
-      --muted:   #7A7060;
+      --cream:   #FFFEF8;
+      --cream2:  #FBF0D0;
+      --forest:  #1A1710;
+      --forest2: #2E2A1A;
+      --coral:   #C9A84C;
+      --gold:    #C9A84C;
+      --blush:   #F5E4B3;
+      --sage:    #A8952E;
+      --text:    #1A1710;
+      --muted:   #8A7E60;
       --white:   #FFFFFF;
-      --border:  #E2D8CC;
+      --border:  #E8DDB8;
     }
 
     html { scroll-behavior: smooth; }
@@ -40,7 +40,7 @@
       display: flex; align-items: center; justify-content: space-between;
       padding: 0 48px;
       height: 72px;
-      background: rgba(253, 247, 238, 0.92);
+      background: rgba(255, 254, 248, 0.92);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
     }
@@ -94,7 +94,7 @@
       transition: all 0.2s;
       text-decoration: none;
     }
-    .btn-primary:hover { background: #c44d2e; transform: translateY(-1px); }
+    .btn-primary:hover { background: #A8852E; transform: translateY(-1px); }
 
     /* ── HERO ── */
     .hero {
@@ -154,11 +154,11 @@
       border-radius: 100px;
       overflow: hidden;
       max-width: 480px;
-      box-shadow: 0 8px 32px rgba(27,58,45,0.08);
+      box-shadow: 0 8px 32px rgba(26,23,16,0.08);
       transition: box-shadow 0.3s;
     }
     .hero-search:focus-within {
-      box-shadow: 0 8px 40px rgba(27,58,45,0.15);
+      box-shadow: 0 8px 40px rgba(26,23,16,0.15);
       border-color: var(--forest);
     }
 
@@ -224,7 +224,7 @@
 
     .hero-img-label {
       position: absolute; bottom: 16px; left: 16px;
-      background: rgba(253,247,238,0.92);
+      background: rgba(255,254,248,0.92);
       backdrop-filter: blur(8px);
       padding: 6px 14px;
       border-radius: 100px;
@@ -316,7 +316,7 @@
     .cat-card:hover {
       border-color: var(--forest);
       transform: translateY(-4px);
-      box-shadow: 0 12px 32px rgba(27,58,45,0.1);
+      box-shadow: 0 12px 32px rgba(26,23,16,0.1);
     }
     .cat-card.active {
       background: var(--forest);
@@ -358,7 +358,7 @@
     }
     .talent-card:hover {
       transform: translateY(-6px);
-      box-shadow: 0 20px 48px rgba(27,58,45,0.12);
+      box-shadow: 0 20px 48px rgba(26,23,16,0.12);
       border-color: transparent;
     }
 
@@ -397,7 +397,7 @@
       font-size: 11px; font-weight: 600;
       letter-spacing: 1px; text-transform: uppercase;
       color: var(--coral);
-      background: #FFF0EB;
+      background: #FBF0D0;
       padding: 4px 10px;
       border-radius: 100px;
       margin-bottom: 14px;
@@ -470,7 +470,7 @@
 
     .step-desc {
       font-size: 15px; font-weight: 300;
-      color: rgba(253,247,238,0.65);
+      color: rgba(255,254,248,0.65);
       line-height: 1.7;
     }
 
@@ -615,7 +615,7 @@
 
     .footer-desc {
       font-size: 14px; font-weight: 300;
-      color: rgba(253,247,238,0.55);
+      color: rgba(255,254,248,0.55);
       line-height: 1.8; max-width: 280px;
     }
 
@@ -628,25 +628,25 @@
     .footer-links { list-style: none; display: flex; flex-direction: column; gap: 12px; }
     .footer-links a {
       font-size: 14px; font-weight: 300;
-      color: rgba(253,247,238,0.55);
+      color: rgba(255,254,248,0.55);
       text-decoration: none; transition: color 0.2s;
     }
     .footer-links a:hover { color: var(--cream); }
 
     .footer-bottom {
       padding-top: 40px;
-      border-top: 1px solid rgba(253,247,238,0.1);
+      border-top: 1px solid rgba(255,254,248,0.1);
       display: flex; justify-content: space-between; align-items: center;
     }
 
     .footer-copy {
-      font-size: 13px; color: rgba(253,247,238,0.4);
+      font-size: 13px; color: rgba(255,254,248,0.4);
     }
 
     .footer-socials { display: flex; gap: 16px; }
     .social-btn {
       width: 38px; height: 38px;
-      border: 1px solid rgba(253,247,238,0.2);
+      border: 1px solid rgba(255,254,248,0.2);
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
       color: rgba(253,247,238,0.5);
